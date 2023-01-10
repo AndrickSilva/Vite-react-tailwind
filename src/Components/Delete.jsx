@@ -18,13 +18,11 @@ const Delete = () => {
             </div>
             <div className='bg-slate-800 min-h-[577px] flex justify-center items-center flex-col'>
                 <div className='font-bold text-6xl mb-6 text-slate-100'>
-                    <div className="text-purple-400 inline-block hover:rotate-6 transition ease-out duration-300">Vite</div>
-                    + <div className="text-cyan-400 inline-block hover:rotate-6 transition ease-out duration-300">React</div> 
-                    + <div className="text-teal-400 inline-block hover:rotate-6 transition ease-out duration-300">Tailwind</div></div>
+                    <div className="text-purple-400 inline-block hover:rotate-6 transition ease-out duration-300">Vite</div> + <div className="text-cyan-400 inline-block hover:rotate-6 transition ease-out duration-300">React</div> + <div className="text-teal-400 inline-block hover:rotate-6 transition ease-out duration-300">Tailwind</div></div>
                 <p className="text-slate-400">
                     Click on the logos to learn more
                 </p>
-                <p className='text-slate-200 font-bold absolute bottom-4 w-full flex justify-center items-center '>{"</>"} by Andrick Silva</p>
+                <a href='https:/github.com/AndrickSilva' target="_blank" className='text-slate-200 font-bold absolute bottom-4 w-full flex justify-center items-center '>{"</>"} by Andrick Silva</a>
             </div></>
     )
 }
