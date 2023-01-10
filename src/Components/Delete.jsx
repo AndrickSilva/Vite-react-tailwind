@@ -22,7 +22,7 @@ const Delete = () => {
                 <p className="text-slate-400">
                     Click on the logos to learn more
                 </p>
-                <a href='https:/github.com/AndrickSilva' target="_blank" className='text-slate-200 font-bold absolute bottom-4 w-full flex justify-center items-center '>{"</>"} by Andrick Silva</a>
+                <a href='https:/github.com/AndrickSilva' target="_blank" className='text-slate-200 font-bold absolute bottom-4 w-full flex justify-center items-center '>{"</>"} by <div className="underline ml-1 hover:scale-105"> Andrick Silva</div></a>
             </div></>
     )
 }
